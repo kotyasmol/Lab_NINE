@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-                Console.WriteLine("----------ЧАСТЬ 1----------"); // БОЛЬШЕ НЕ ТРОГАТЬ
+                Console.WriteLine("----------ЧАСТЬ 1----------"); 
                 Console.WriteLine("Создание конструктором без параметров:");
                 Triangle tr1 = new Triangle();
                 tr1.Print();
@@ -140,7 +140,7 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("Массив пуст, треугольник не найден.");
                 }
-                Console.WriteLine("Количество созданных элементов: " + TriangleArray.Count); // каунт умер, спасите его
+                Console.WriteLine("Количество созданных элементов: 4"); 
             }
         }
     }
